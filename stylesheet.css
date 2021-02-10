@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script|Satisfy');
+* {
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-image: url("./images/Layer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	transition: 0.5s;
+}
+.homeContent, .aboutContent, .academicsContent {
+	margin-top: 7em;
+}
+.nav {
+	display: flex;
+	justify-content: center;
+}
+.nav-item {
+	padding: 10px;
+}
+a {
+	text-decoration: none;
+	margin: 10px 50px;
+	letter-spacing: 5px;
+	font-size: 1.5em;
+	color: #fff;
+}
+a:hover {
+	color: #ff5f00;
+}
+
+span.menu-icon {
+	display: none;
+	color: #fff;
+	font-size: 25px;
+	padding: 21px 0;
+}
+.homeContent h1 {
+	font-size: 4.5em;
+	color: #f50;
+	text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee,
+	2px 1px 1px #ccc, 1px 2px 1px #eee,
+	3px 2px 1px #ccc, 2px 3px 1px #eee,
+	4px 3px 1px #ccc, 3px 4px 1px #eee,
+	5px 4px 1px #ccc, 4px 6px 1px #eee,
+	6px 5px 1px #ccc, 5px 6px 1px #eee;
+}
+.content {
+	font-size: 2em;
+	color:#999;
+	font-family: "Satisfy",cursive;
+}
+.link {
+	font-size: 2em;
+}
+.link:hover {
+	color: #f80;
+}
+
+h2 span {
+	font-size: 2em;
+	color: #ff4d00;
+	text-shadow: 
+		0 1px 0px #ccc,
+		1px 0 0px #eee,
+		1px 2px 1px #ccc,
+		2px 1px 1px #eee,
+		2px 3px 2px #ccc,
+		3px 2px 2px #eee,
+		3px 4px 2px #ccc,
+		4px 3px 3px #eee;
+}
+.info {
+	font-size: 1.5em;
+	color: #29ab29;
+	font-family: "Satisfy",cursive;
+}
+h4 {
+	font-size: 2em;
+	color: #909;
+	text-decoration: underline;
+	font-family: "Satisfy",cursive;
+}
+.group p {
+	font-size: 1.3em;
+	color: #daa52a;
+	font-family: 'Satisfy', cursive;
+}
