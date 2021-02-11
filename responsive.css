@@ -1,6 +1,9 @@
 @media (max-width: 677px) {
 	.nav-item {
+		width: 100%;
 		display: none;
+		position: absolute;
+		text-align: center;
 	}
 	.menu-icon {
 		display: block;
@@ -14,20 +17,13 @@
 	.homeContent h1 {
 		font-size: 2em;
 	}
-	.content {
-		font-size: 1em;
-	}
-	h2 span {
-		font-size: 1em;
-	}
-	.info {
-		font-size: 0.6em;
-	}
-	h4 {
-		font-size: 1em;
-	}
+	.content, h2 span,
+	.info,
 	.group p {
 		font-size: 1em;
+	}
+	h4 {
+		font-size: 1.5em;
 	}
 	.acad {
 		flex-direction: column;
