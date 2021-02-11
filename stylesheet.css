@@ -36,6 +36,7 @@ a:hover {
 
 span.menu-icon {
 	display: none;
+	float: right;
 	color: #fff;
 	font-size: 25px;
 	padding: 21px 0;
@@ -89,5 +90,13 @@ h4 {
 .group p {
 	font-size: 1.3em;
 	color: #daa52a;
+	align-self: flex-end;
 	font-family: 'Satisfy', cursive;
+}
+.acad {
+	display: flex;
+}
+.group {
+	flex-grow: 1;
+	text-align: center;
 }
