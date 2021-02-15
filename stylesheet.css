@@ -13,7 +13,7 @@ body {
 	text-align: center;
 	transition: 0.5s;
 }
-.homeContent, .aboutContent, .academicsContent {
+.homeContent, .aboutContent, .academicsContent, .skillsContent {
 	margin-top: 7em;
 }
 .nav {
@@ -65,21 +65,46 @@ h2 span {
 	color: #0ee60e;
 	font-family: "Satisfy",cursive;
 }
-.info h5 {
+
+.hobbies {
 	font-size: 1.5em;
+	margin-top: 1em;
+	font-family: "Satisfy",cursive;
+}
+.hobbies h5 {
+	font-size: 2em;
 	color: #af8edf;
 }
-.highlight {
-	color: #1bdae7;
+.divide {
+	display: flex;
 }
+.common, .rare {
+	flex-grow: 1;
+}
+ul {
+	list-style-type: none;
+	color: #09f0af;
+}
+li {
+	margin-top: 1em;
+	color: #900ffa;
+}
+.highlight {
+	color: #ff8c00;
+	background-color: #333;
+	opacity: 0.8;
+}
+
+
 h4 {
 	font-size: 2em;
 	color: #909;
 	text-decoration: underline;
 	font-family: "Satisfy",cursive;
 }
-.acad {
+.acad, .certify {
 	display: flex;
+	justify-content: space-between;
 }
 .group {
 	flex-grow: 1;
@@ -88,6 +113,16 @@ h4 {
 .group p {
 	font-size: 1.3em;
 	color: #daa52a;
-	align-self: flex-end;
 	font-family: 'Satisfy', cursive;
+}
+.fl-1 {
+	flex-grow: 1;
+}
+.fl-2 {
+	flex-grow: 2;
+}
+
+.skill {
+	display: flex;
+	flex-direction: column;
 }
