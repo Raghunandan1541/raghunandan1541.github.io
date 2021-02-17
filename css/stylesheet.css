@@ -6,7 +6,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background-image: url("./images/Layer.jpg");
+	background-image: url("../images/Layer.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -45,7 +45,7 @@ a:hover {
 }
 .content {
 	font-size: 2.5em;
-	color:#eb0fa9;
+	color: #05f1f9;
 	font-family: "Satisfy",cursive;
 }
 .link {
@@ -62,36 +62,13 @@ h2 span {
 }
 .info {
 	font-size: 2em;
-	color: #0ee60e;
+	color: #40e60e;
 	font-family: "Satisfy",cursive;
 }
 
-.hobbies {
-	font-size: 1.5em;
-	margin-top: 1em;
-	font-family: "Satisfy",cursive;
-}
-.hobbies h5 {
-	font-size: 2em;
-	color: #af8edf;
-}
-.divide {
-	display: flex;
-}
-.common, .rare {
-	flex-grow: 1;
-}
-ul {
-	list-style-type: none;
-	color: #09f0af;
-}
-li {
-	margin-top: 1em;
-	color: #900ffa;
-}
+
 .highlight {
-	color: #ff8c00;
-	background-color: #333;
+	color: #ff8a00;
 	opacity: 0.8;
 }
 
@@ -106,23 +83,21 @@ h4 {
 	display: flex;
 	justify-content: space-between;
 }
-.group {
-	flex-grow: 1;
+.acad .group {
+	width: 33%;
 	text-align: center;
 }
 .group p {
-	font-size: 1.3em;
-	color: #daa52a;
+	font-size: 1.5em;
+	color: #ffbe26;
 	font-family: 'Satisfy', cursive;
 }
-.fl-1 {
-	flex-grow: 1;
-}
-.fl-2 {
-	flex-grow: 2;
+.certify .group {
+	width: 50%;
+	text-align: center;
 }
 
 .skill {
 	display: flex;
-	flex-direction: column;
+	justify-content: space-around;
 }

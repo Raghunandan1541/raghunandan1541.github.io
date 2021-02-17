@@ -1,0 +1,45 @@
+@media (max-width: 670px) {
+	body {
+		background-image: url("../images/Cool.jpg");
+	}
+	.nav-item {
+		margin-top: 2em;
+		width: min-content;
+		flex-direction: column;
+		display: none;
+		position: absolute;
+		text-align: center;
+		background-color: rgba(150, 150, 150, 0.5);
+	}
+	.menu-icon {
+		display: block;
+	}
+	.link {
+		font-size: 1em;
+	}
+	.homeContent, .aboutContent, .academicsContent, .skillsContent {
+		margin-top: 4em;
+	}
+	.homeContent h1 {
+		font-size: 2em;
+		text-shadow: 3px 0 1px #ff4c00;
+	}
+	.content,
+	.info,
+	.group p {
+		font-size: 1.5em;
+	}
+	h2 span {
+		font-size: 1em;
+		text-shadow: 2px 0 1px #ff4c00;
+	}
+	h4 {
+		font-size: 1.5em;
+	}
+	.acad, .certify, .skill {
+		flex-direction: column;
+	}
+	.acad .group, .certify .group {
+		width: 100%;
+	}
+}
