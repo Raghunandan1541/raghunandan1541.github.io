@@ -1,6 +1,7 @@
 @media (max-width: 670px) {
 	body {
 		background-image: url("../images/Cool.jpg");
+		background-attachment: fixed;
 	}
 	.nav-item {
 		margin-top: 2em;
@@ -21,7 +22,7 @@
 		margin-top: 3.5em;
 	}
 	.homeContent h1 {
-		font-size: 2em;
+		font-size: 2.2em;
 		text-shadow: 3px 0 1px #ff4c00;
 	}
 	.content,
@@ -30,11 +31,11 @@
 		font-size: 1.5em;
 	}
 	h2 span {
-		font-size: 1em;
+		font-size: 1.2em;
 		text-shadow: 2px 0 1px #ff4c00;
 	}
 	h4 {
-		font-size: 1.5em;
+		font-size: 1.8em;
 	}
 	.acad, .certify, .skill {
 		flex-direction: column;

@@ -29,18 +29,16 @@ a {
 	letter-spacing: 5px;
 	font-size: 1.5em;
 	color: #fff;
-	transition: 0.5s;
 }
 a:hover {
 	color: #ff5f00;
-	text-shadow: 2px 5px 3px #ff9c00;
-	position: relative;
-	top: -2px;
 }
 
 .menu-icon {
 	display: none;
-	float: right;
+	position: absolute;
+	top: 1em;
+	right: 0.5em;
 }
 .homeContent h1 {
 	font-size: 4.5em;
