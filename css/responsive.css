@@ -1,8 +1,4 @@
-@media (max-width: 670px) {
-	body {
-		background-image: url("../images/Cool.jpg");
-		background-attachment: fixed;
-	}
+@media (max-width: 875px) {
 	.nav-item {
 		margin-top: 2em;
 		width: min-content;

@@ -6,18 +6,3 @@ const myToggle = (() => {
 		x.style.display = "block";
 	}
 });
-
-var mybutton = document.getElementById("Top");
-window.onscroll = () => {scrollFunction()};
-
-function scrollFunction() {
-	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-		mybutton.style.display = "block";
-	} else {
-		mybutton.style.display = "none";
-	}
-}
-const topFunction = (() => {
-	document.body.scrollTop = 0;
-	document.documentElement.scrollTop = 0;
-});

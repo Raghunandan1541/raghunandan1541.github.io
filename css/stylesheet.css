@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Marck+Script|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Lexend|Flamenco|Almendra+Display');
 * {
 	box-sizing: border-box;
 }
@@ -6,12 +6,18 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background-image: url("../images/Layer.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+	background-color: #000;
 	text-align: center;
 	transition: 0.5s;
+}
+canvas {
+	position: fixed;
+	left: 0;
+}
+.container {
+	position: relative;
+	top: 0;
+	z-index: 10;
 }
 .homeContent, .aboutContent, .academicsContent, .skillsContent {
 	margin-top: 7em;
@@ -48,7 +54,8 @@ a:hover {
 .content {
 	font-size: 2.5em;
 	color: #05f1f9;
-	font-family: "Marck Script";
+	font-family: "Almendra Display";
+	font-weight: 800;
 }
 .link {
 	font-size: 2em;
@@ -83,7 +90,7 @@ h2 span {
 .info {
 	font-size: 2em;
 	color: #40e60e;
-	font-family: "Satisfy", cursive;
+	font-family: "Flamenco";
 }
 
 
@@ -97,7 +104,7 @@ h4 {
 	font-size: 2em;
 	color: #909;
 	text-decoration: underline;
-	font-family: "Satisfy",cursive;
+	font-family: "Flamenco";
 }
 .acad, .certify {
 	display: flex;
@@ -110,7 +117,7 @@ h4 {
 .group p {
 	font-size: 1.8em;
 	color: #ffbe26;
-	font-family: "Satisfy",cursive;
+	font-family: "Flamenco";
 }
 .certify .group {
 	width: 50%;
