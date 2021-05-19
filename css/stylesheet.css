@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lexend|Flamenco|Almendra+Display');
+@import url("https://fonts.googleapis.com/css?family=Lexend|Flamenco|Almendra+Display");
 * {
 	box-sizing: border-box;
 }
@@ -19,7 +19,10 @@ canvas {
 	top: 0;
 	z-index: 10;
 }
-.homeContent, .aboutContent, .academicsContent, .skillsContent {
+.homeContent,
+.aboutContent,
+.academicsContent,
+.skillsContent {
 	margin-top: 7em;
 }
 .nav {
@@ -93,12 +96,10 @@ h2 span {
 	font-family: "Flamenco";
 }
 
-
 .highlight {
 	color: #ff8a00;
 	opacity: 0.8;
 }
-
 
 h4 {
 	font-size: 2em;
@@ -106,7 +107,8 @@ h4 {
 	text-decoration: underline;
 	font-family: "Flamenco";
 }
-.acad, .certify {
+.acad,
+.certify {
 	display: flex;
 	justify-content: space-between;
 }
@@ -126,5 +128,26 @@ h4 {
 
 .skill {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
+}
+
+.badge {
+	color: #fafdff;
+	transform: rotate(45deg);
+	margin-top: 2rem;
+	background-color: transparent;
+	width: 10rem;
+	height: 10rem;
+	overflow: hidden;
+}
+.design {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 10rem;
+	height: 10rem;
+	background-color: #853704;
+	transform: rotate(-45deg);
+	font-size: 2rem;
 }
